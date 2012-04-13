@@ -104,6 +104,43 @@ ul li {
 3 - Grid & Containers
 ---------------------------*/
 
+.container {
+	width:X;
+	margin:0 auto;
+}
+
+.cols {
+	width:100%;
+	margin:0 -X;
+}
+
+.cols > div {
+	float:left;
+	padding:X;
+}
+
+/* half */
+
+.cols .onehalf, .cols.double > div {width:50%;}
+
+/* thirds */
+
+.cols .onethird, .cols.thirds > div {width:33%;}
+.cols .twothird {width:66%;}
+
+/* quarters */
+
+.cols .onefourth, .cols.quarts > div {width:25%;}
+.cols .twofourth {width:50%;}
+.cols .threefourth {width:75%;}
+
+/* fifths */
+
+.cols .onefifth, .cols.fifths > div {width:20%;	}
+.cols .twofifth {width:40%;}
+.cols .threefifth {width:60%;}
+.cols .fourfifth {width:80%;}
+
 /*---------
 4 - Generic Elements
 ---------------------------*/
