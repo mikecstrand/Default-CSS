@@ -22,7 +22,13 @@
 ---------------------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 html { font-size:62.5%; }
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;vertical-align:baseline;background:transparent;font-family:Arial, Georgia, Sans-serif;font-weight:normal;margin:0;padding:0;}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{
+	border:0;outline:0;vertical-align:baseline;background:transparent;
+	font-family:X;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+}
 body{line-height:1;background:#f6f5f8;}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 blockquote,q{quotes:none}
@@ -41,54 +47,49 @@ strong { font-weight:bold; }
 ---------------------------*/
 
 h1, h2, h3, h4, h5 {
-	color:#000;
-	line-height:1.2;
-	padding:0 0 10px 0;
+	color:X;
+	line-height:X;
+	padding:X;
+	font-size:X;
+
 }
 
 h1, .h1 {
-	font-size:36px;
-	font-size:3.6rem;
-	padding-bottom:20px;
-	
+	font-size:X;
+
 }
 
 h2, .h2 {
-	font-size:32px;
-	font-size:3.2rem;
-	padding:20px 0 10px 0;
+	font-size:X;
+
 }
 
 h3, .h3 {
-	font-size:28px;
-	font-size:2.8rem;
+	font-size:X;
 }
 
 
 h4, .h4 {
-	font-size:22px;
-	font-size:2.2rem;
+	font-size:X;
 }
 
 h5, .h5 {
-	font-size:18px;
-	font-size:1.8rem;
+	font-size:X;
 	font-weight:normal;
 }
 
 a {
-	color:#FFF;
+	color:X;
 	text-decoration:none;
 	font-weight:bold;
 }
 
 p a {
-	font-size:12px;
-	font-size:1.2rem;
+	font-size:X;
 }
 
 p {
-	color:#858488;
+	color:X;
 	margin:8px 0;
 	font-size:12px;
 	font-size:1.2rem;
@@ -108,55 +109,42 @@ ul li {
 ---------------------------*/
 
 ul, ol {
-	margin:10px 20px;
+	margin:X;
 }
 
 dl {
-	margin:10px 0;
+	margin:X;
 }
 
 li {
-	padding:2px 0;
+	padding:X;
 }
 
 dl dt, dl dd {
-	float:left;
-	padding:0 10px 10px 0;
+	padding:X;
 }
 
 dl p {
-	margin:4px 0;
-}
-
-dl dd {
-	clear:left;
-	width:105px;
-}
-
-dl dt {
-	width:auto;
+	margin:X;
 }
 
 form {
-	margin:10px 0;
+	margin:X;
 }
 
 legend {
-	font-size:18px;
+	font-size:X;
 	font-weight:bold;
-	color:#4D336E;
 }
 
 label {
 	display:block;
-	font-weight:bold;
-	padding:10px 0 5px;
+	padding:X;
 }
 
 input, textarea, select {
-	border:1px solid #dad9dc;
-	padding:5px;
-	color:#B5B3B8;
+	border:1px solid X;
+	padding:X;
 }
 
 select {
@@ -167,18 +155,18 @@ select {
 
 button, a.button {
 	display:block;
-	font:bold 12px arial, verdana, sans-serif;
-	color:#FFF;
+	font:X;
+	color:X;
 	padding:5px;
 	border:0;
 	cursor:pointer;
-	float:left;
+	float:X;
 }
 
 a.button {
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	border-radius:10px;
+	-moz-border-radius:X;
+	-webkit-border-radius:X;
+	border-radius:X;
 }
 
 
@@ -190,13 +178,12 @@ a img {
 /* Blockquote */
 
 blockquote {
-	color:#4D336E;
-	font-size:12px;
-	font-size:1.2rem;
+	color:X;
+	font-size:X;
 }
 
 blockquote span {
-	color:#B5B3B8;
+	color:X;
 }
 
 /* Grouping */
