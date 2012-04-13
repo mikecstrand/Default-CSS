@@ -199,6 +199,21 @@ blockquote span {
 	color:#B5B3B8;
 }
 
+/* Grouping */
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
 /*---------
 5 - Header
 ---------------------------*/
