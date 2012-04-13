@@ -1,0 +1,224 @@
+/*---
+
+	Site : Sitename
+	URL : 
+	Author : Mike Strand
+	
+	Contents :
+	
+		1 - HTML5 Reset
+		2 - Base Type
+		3 - Grid & Container
+		4 - Generic Elements
+		5 - Header
+		6 - Footer
+		
+		* - Media Queries
+		
+---*/
+
+/*---------
+1 - HTML5 Reset
+---------------------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+html { font-size:62.5%; }
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;vertical-align:baseline;background:transparent;font-family:Arial, Georgia, Sans-serif;font-weight:normal;margin:0;padding:0;}
+body{line-height:1;background:#f6f5f8;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{font-size:100%;vertical-align:baseline;background:transparent;color:#FFF;margin:0;padding:0}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+hr{display:block;height:1px;border:0;border-top:1px solid #dad9dc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+strong { font-weight:bold; }
+
+/*---------
+2 - Base Type
+---------------------------*/
+
+h1, h2, h3, h4, h5 {
+	color:#000;
+	line-height:1.2;
+	padding:0 0 10px 0;
+}
+
+h1, .h1 {
+	font-size:36px;
+	font-size:3.6rem;
+	padding-bottom:20px;
+	
+}
+
+h2, .h2 {
+	font-size:32px;
+	font-size:3.2rem;
+	padding:20px 0 10px 0;
+}
+
+h3, .h3 {
+	font-size:28px;
+	font-size:2.8rem;
+}
+
+
+h4, .h4 {
+	font-size:22px;
+	font-size:2.2rem;
+}
+
+h5, .h5 {
+	font-size:18px;
+	font-size:1.8rem;
+	font-weight:normal;
+}
+
+a {
+	color:#FFF;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+p a {
+	font-size:12px;
+	font-size:1.2rem;
+}
+
+p {
+	color:#858488;
+	margin:8px 0;
+	font-size:12px;
+	font-size:1.2rem;
+}
+
+ul li {
+	font-size:12px;
+	font-size:1.2rem;
+}
+
+/*---------
+3 - Grid & Containers
+---------------------------*/
+
+/*---------
+4 - Generic Elements
+---------------------------*/
+
+ul, ol {
+	margin:10px 20px;
+}
+
+dl {
+	margin:10px 0;
+}
+
+li {
+	padding:2px 0;
+}
+
+dl dt, dl dd {
+	float:left;
+	padding:0 10px 10px 0;
+}
+
+dl p {
+	margin:4px 0;
+}
+
+dl dd {
+	clear:left;
+	width:105px;
+}
+
+dl dt {
+	width:auto;
+}
+
+form {
+	margin:10px 0;
+}
+
+legend {
+	font-size:18px;
+	font-weight:bold;
+	color:#4D336E;
+}
+
+label {
+	display:block;
+	font-weight:bold;
+	padding:10px 0 5px;
+}
+
+input, textarea, select {
+	border:1px solid #dad9dc;
+	padding:5px;
+	color:#B5B3B8;
+}
+
+select {
+	border:0;
+}
+
+/* Buttons */
+
+button, a.button {
+	display:block;
+	font:bold 12px arial, verdana, sans-serif;
+	color:#FFF;
+	padding:5px;
+	border:0;
+	cursor:pointer;
+	float:left;
+}
+
+a.button {
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+
+
+a img {
+	vertical-align:middle;
+}
+
+/* Blockquote */
+
+blockquote {
+	color:#4D336E;
+	font-size:12px;
+	font-size:1.2rem;
+}
+
+blockquote span {
+	color:#B5B3B8;
+}
+
+/*---------
+5 - Header
+---------------------------*/
+
+/*---------
+6 - Footer
+---------------------------*/
+
+/* Media Queries, Tablet, Mobile + iPad3 */
+
+@media (min-width: 751px) and (max-width: 1024px){
+	
+
+}
+
+@media (max-width: 750px){
+
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+}
