@@ -46,208 +46,260 @@ strong { font-weight:bold; }
 2 - Base Type
 ---------------------------*/
 
+/*-- Headers --*/
 h1, h2, h3, h4, h5 {
-	color:X;
-	line-height:X;
-	padding:X;
-	font-size:X;
+	color		: X;
+	line-height	: X;
+	padding		: X;
+	font-size	: X;
 
 }
 
 h1, .h1 {
-	font-size:X;
+	font-size	: X;
 
 }
 
 h2, .h2 {
-	font-size:X;
+	font-size	: X;
 
 }
 
 h3, .h3 {
-	font-size:X;
+	font-size	: X;
 }
 
 
 h4, .h4 {
-	font-size:X;
+	font-size	: X;
 }
 
 h5, .h5 {
-	font-size:X;
-	font-weight:normal;
+	font-size	: X;
+	font-weight	: normal;
 }
 
+/*-- Links, P & LI --*/
+
 a {
-	color:X;
+	color		: X;
 	text-decoration:none;
-	font-weight:bold;
+	font-weight	: bold;
 }
 
 p a {
-	font-size:X;
+	font-size	: X;
 }
 
 p {
-	color:X;
-	margin:8px 0;
-	font-size:12px;
-	font-size:1.2rem;
+	color		: X;
+	margin		: 8px 0;
+	font-size	: 12px;
+	font-size	: 1.2rem;
 }
 
 ul li {
-	font-size:12px;
-	font-size:1.2rem;
+	font-size	: 12px;
+	font-size	: 1.2rem;
 }
 
 /*---------
 3 - Grid & Containers
 ---------------------------*/
 
+/*-- Standard Container --*/
 .container {
-	width:X;
-	margin:0 auto;
+	width		: X;
+	margin		: 0 auto;
 }
 
+/*-- Columns --*/
 .cols {
-	width:100%;
-	margin:0 -X;
+	width		: 100%;
+	margin		: 0 -X;
 }
 
-.cols > div {
-	float:left;
-	padding:X;
-}
+	.cols > div {
+		float		: left;
+		padding		: X;
+	}
 
-/* half */
+	/* half */
+	.cols .onehalf, .cols.double > div {
+		width		: 50%;
+	}
 
-.cols .onehalf, .cols.double > div {width:50%;}
+	/* thirds */
+	.cols .onethird, .cols.thirds > div {
+		width		: 33%;
+	}
+	
+	.cols .twothird {
+		width		: 66%;
+	}
 
-/* thirds */
+	/* quarters */
+	.cols .onefourth, .cols.quarts > div {
+		width		: 25%;
+	}
+	
+	.cols .twofourth {
+		width		: 50%;
+	}
+	
+	.cols .threefourth {
+		width		: 75%;
+	}
 
-.cols .onethird, .cols.thirds > div {width:33%;}
-.cols .twothird {width:66%;}
-
-/* quarters */
-
-.cols .onefourth, .cols.quarts > div {width:25%;}
-.cols .twofourth {width:50%;}
-.cols .threefourth {width:75%;}
-
-/* fifths */
-
-.cols .onefifth, .cols.fifths > div {width:20%;	}
-.cols .twofifth {width:40%;}
-.cols .threefifth {width:60%;}
-.cols .fourfifth {width:80%;}
+	/* fifths */
+	.cols .onefifth, .cols.fifths > div {
+		width		: 20%;	
+	}
+	
+	.cols .twofifth {
+		width		: 40%;
+	}
+	
+	.cols .threefifth {
+		width		: 60%;
+	}
+	
+	.cols .fourfifth {
+		width		: 80%;
+	}
 
 /*---------
 4 - Generic Elements
 ---------------------------*/
 
+/*-- Listing Styling --*/
 ul, ol {
-	margin:X;
+	margin		: X;
 }
 
 dl {
-	margin:X;
+	margin		: X;
 }
 
-li {
-	padding:X;
-}
+	li {
+		padding		: X;
+	}
 
-dl dt, dl dd {
-	padding:X;
-}
+	dl dt, dl dd {
+		padding		: X;
+	}
 
-dl p {
-	margin:X;
-}
+	dl p {
+		margin		: X;
+	}
 
+/*-- Form Styling --*/
 form {
-	margin:X;
+	margin		: X;
 }
 
-legend {
-	font-size:X;
-	font-weight:bold;
-}
+	legend {
+		font-size	: X;
+		font-weight	: bold;
+	}
 
-label {
-	display:block;
-	padding:X;
-}
+	label {
+		display		: block;
+		padding		: X;
+	}
 
-input, textarea, select {
-	border:1px solid X;
-	padding:X;
-}
+	input, textarea, select {
+		border		: 1px solid X;
+		padding		: X;
+	}
 
-select {
-	border:0;
-}
+	select {
+		border		: 0;
+	}
 
-/* Buttons */
-
+/*-- Default Button Stylings --*/
 button, a.button {
-	display:block;
-	font:X;
-	color:X;
-	padding:5px;
-	border:0;
-	cursor:pointer;
-	float:X;
+	display		: block;
+	font		: X;
+	color		: X;
+	padding		: 5px;
+	border		: 0;
+	cursor		: pointer;
+	float		: X;
 }
-
-a.button {
-	-moz-border-radius:X;
-	-webkit-border-radius:X;
-	border-radius:X;
-}
-
+	
+	/*-- Add border radius aka rounded corner --*/
+	a.button {
+		-moz-border-radius: X;-webkit-border-radius: X;border-radius: X;
+	}
 
 
+/*-- A Imgs --*/
 a img {
 	vertical-align:middle;
 }
 
-/* Blockquote */
-
+/*-- Basic Blockquote Styling --*/
 blockquote {
-	color:X;
-	font-size:X;
+	color		: X;
+	font-size	: X;
 }
 
-blockquote span {
-	color:X;
-}
+	blockquote span {
+		color		: X;
+	}
 
-/* Grouping */
-
+/*-- Group aka clrfix --*/
 .group:before,
 .group:after {
-    content:"";
-    display:table;
+    content		: "";
+    display		: table;
 }
 .group:after {
-    clear:both;
+    clear		: both;
 }
 .group {
-    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+    zoom		: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
+/*-- Hide Text aka text-indent:-9999px --*/
+.hidetext {
+	text-indent	: 100%;
+	white-space	: nowrap;
+	overflow	: hidden;
+}
 
 /*---------
 5 - Header
 ---------------------------*/
+
+header {
+	width		: 100%;
+}
+	/*-- Head List Items --*/
+		header ul li {
+			list-style	: none;
+		}
+		
+	/*-- Head Logo H1 Replace --*/
+	header h1 {
+		display		: block;
+	}
+
+		header h1 a {
+			display		: block;
+			width		: 100%;
+			height		: X;
+			text-indent	: 100%;
+			white-space	: nowrap;
+			overflow	: hidden;
+		}
 
 /*---------
 6 - Footer
 ---------------------------*/
 
 /* Media Queries, Tablet, Mobile + iPad3 */
-
 @media (min-width: 751px) and (max-width: 1024px){
 	
 
