@@ -56,9 +56,6 @@ h1, h2, h3, h4, h5 {
 
 }
 
-h1, .h1 {
-}
-
 h2, .h2 {
 	font-size	: 25px;
 	font-size 	: 2.5rem;
@@ -241,15 +238,14 @@ blockquote {
 
 /*-- Group aka clrfix --*/
 .group:before,
-.group:after {
+.group:after,
+.cols:before,
+.cols:after {
     content		: "";
     display		: table;
 }
-.group:after {
+.group:after, .cols:after {
     clear		: both;
-}
-.group {
-    zoom		: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
 /*-- Hide Text aka text-indent:-9999px --*/
